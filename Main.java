@@ -1,9 +1,11 @@
-// インクリメント演算子
+// 値より大きな型の変換に代入
 public class Main {
   public static void main(String[] args) {
-    int a;
-    a = 100;
-    a++;
-    System.out.println(a);
+    // float型のint型を代入
+    float f = 3;
+    // double型のfloat型を代入
+    double d = f;
+    System.out.println(f);
+    System.out.println(d);
   }
 }
