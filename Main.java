@@ -1,11 +1,7 @@
-// 値より大きな型の変換に代入
+// データより小さな型の変数に代入（エラー）
 public class Main {
   public static void main(String[] args) {
-    // float型のint型を代入
-    float f = 3;
-    // double型のfloat型を代入
-    double d = f;
-    System.out.println(f);
-    System.out.println(d);
+    // 小数点はどうなるか？→コンパイルエラーとなる
+    int i = 3.2;
   }
 }
